@@ -7,4 +7,8 @@ The use of several Thread methods like start(), sleep(), isAlive(), getName(), c
 
 We are creating a thread by implementing the Runnable interface .
 
+The run() method of the Thread class is overridden by the ThreadDemo class, which extends it. A new thread is created to run the code contained in the run() function when the start() method is performed on a ThreadDemo object.
+
+The sleep() function, which is another feature of the ThreadDemo class, puts the running thread to sleep for a predetermined number of milliseconds.
+
 The fundamentals of establishing threads in Java and utilising their numerous methods are shown in this program. Developers can write scalable, effective programs that make use of the multi-threading capabilities of computer systems by learning how to create and use threads.
